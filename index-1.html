@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Raza Refurn - Professional sofa repair, refurbishment and upholstery services in Delhi NCR, Noida and Gurugram.">
+<title>Raza Refurn | Sofa Repair & Refurbishment</title>
+<style>
+:root{--navy:#061a36;--navy2:#0d315c;--orange:#f28a24;--cream:#fff8f1;--ink:#111827;--muted:#667085}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff}
+a{text-decoration:none;color:inherit}.wrap{width:min(1160px,92%);margin:auto}
+nav{height:74px;background:rgba(6,26,54,.97);color:#fff;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20;box-shadow:0 8px 25px #0002}
+.logo{font-weight:900;letter-spacing:2px;font-size:23px;margin-left:28px}.logo i{font-style:normal;color:var(--orange)}
+.navlinks{display:flex;gap:28px;font-size:14px;font-weight:700}.navlinks a:hover{color:var(--orange)}
+.menu{display:none;font-size:27px}
+.hero{background:radial-gradient(circle at 80% 20%,#17477d 0,#0d315c 30%,#061a36 72%);color:#fff;min-height:650px;display:flex;align-items:center;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding:70px 0}
+.kicker{display:inline-flex;align-items:center;gap:9px;border:1px solid #ffffff35;background:#ffffff0d;padding:10px 15px;border-radius:99px;color:#ffd2a5;font-size:12px;font-weight:800;letter-spacing:1.3px}
+h1{font-size:clamp(46px,6.5vw,78px);line-height:.98;letter-spacing:-2px;margin:20px 0 18px}.orange{color:var(--orange)}
+.hero p{font-size:18px;line-height:1.7;color:#d9e3ef;max-width:640px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:15px 22px;border-radius:12px;font-weight:900;display:inline-flex;align-items:center;gap:8px}.btn-main{background:var(--orange);color:#fff;box-shadow:0 12px 28px #f28a2440}.btn-ghost{border:1px solid #ffffff55;color:#fff}
+.visual{height:440px;display:grid;place-items:center;position:relative}.visual:before{content:"";position:absolute;width:360px;height:360px;border:1px solid #f28a2460;border-radius:50%;box-shadow:0 0 0 25px #ffffff08,0 0 0 50px #ffffff04}
+.sofa-box{position:relative;width:330px;height:230px;background:#fff;border-radius:34px 34px 24px 24px;box-shadow:0 35px 70px #0005;padding:35px 32px 0;z-index:2}
+.sofa-back{height:105px;border:4px solid #e8edf2;border-radius:25px 25px 15px 15px;background:linear-gradient(#fff,#f2f4f7);display:flex;gap:12px;padding:12px}
+.cushion{flex:1;border-radius:15px;background:#f9fafb;box-shadow:inset 0 0 0 2px #e8edf2}
+.sofa-seat{height:58px;background:#f28a24;border-radius:13px;margin-top:12px}
+.arm{position:absolute;width:38px;height:115px;background:#f4f5f7;border:4px solid #e7ebef;border-radius:20px;top:70px}.arm.left{left:12px}.arm.right{right:12px}
+.leg{position:absolute;width:12px;height:38px;background:#222;bottom:-28px;border-radius:5px}.leg.l{left:62px}.leg.r{right:62px}
+.section{padding:90px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 45px}.eyebrow{color:var(--orange);font-weight:900;letter-spacing:2px;font-size:12px}.section h2{font-size:42px;line-height:1.1;color:var(--navy);margin:10px 0}.section-head p{color:var(--muted);line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{border:1px solid #e7ebf0;border-radius:22px;padding:30px;background:#fff;box-shadow:0 14px 35px #061a360b;transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:0 20px 40px #061a3614}
+.icon{width:54px;height:54px;border-radius:15px;background:var(--cream);display:grid;place-items:center;font-size:28px}.card h3{font-size:21px;color:var(--navy);margin:20px 0 10px}.card p{color:var(--muted);line-height:1.65;margin:0}
+.light{background:#f7f9fc}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{background:#fff;border-radius:20px;padding:25px;border:1px solid #e8edf2}.num{width:40px;height:40px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-weight:900}.step h3{margin:18px 0 8px;color:var(--navy)}.step p{color:var(--muted);line-height:1.55}
+.before{display:grid;grid-template-columns:1fr 1fr;gap:22px}.photo{min-height:260px;border-radius:25px;display:grid;place-items:center;font-weight:900;font-size:24px;letter-spacing:1px}.before .photo:first-child{background:linear-gradient(135deg,#e9e1d9,#c8c0b8);color:#5b5149}.before .photo:last-child{background:linear-gradient(135deg,#061a36,#17477d);color:#fff}
+.contact{background:var(--navy);color:#fff;border-radius:30px;padding:55px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}.contact h2{color:#fff;margin:8px 0;font-size:42px}.contact p{color:#cdd8e6;line-height:1.7}.contact-box{background:#fff;color:var(--ink);border-radius:20px;padding:25px}.contact-box strong{color:var(--navy);display:block;margin-bottom:10px}.contact-box a{display:block;color:#e36e10;font-weight:900;margin:9px 0}
+footer{background:#041226;color:#aebaca;padding:28px 0}.foot{display:flex;justify-content:space-between;gap:20px}.foot b{color:#fff}
+.float{position:fixed;right:20px;bottom:20px;background:#1aa260;color:#fff;padding:14px 18px;border-radius:99px;font-weight:900;z-index:30;box-shadow:0 12px 30px #0003}
+@media(max-width:800px){.navlinks{display:none}.menu{display:block}.hero-grid{grid-template-columns:1fr;padding:55px 0}.visual{height:340px}.sofa-box{transform:scale(.82)}.cards,.process,.before,.contact{grid-template-columns:1fr}.section{padding:65px 0}.section h2{font-size:34px}.contact{padding:35px}.foot{flex-direction:column}.hero p{font-size:16px}}
+</style>
+<style>
+.work-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.work-card{background:#fff;border:1px solid #e7ebf0;border-radius:22px;overflow:hidden;box-shadow:0 14px 35px #061a3610;transition:.25s}
+.work-card:hover{transform:translateY(-5px);box-shadow:0 22px 45px #061a3620}
+.work-card img{display:block;width:100%;height:300px;object-fit:cover}
+.work-card.wide img{height:420px}
+.work-caption{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:16px 19px}
+.work-caption b{color:var(--navy);font-size:17px}
+.work-caption span{color:var(--orange);font-size:12px;font-weight:900;letter-spacing:.7px;text-transform:uppercase}
+@media(max-width:800px){.work-grid{grid-template-columns:1fr}.work-card img,.work-card.wide img{height:auto;max-height:none;object-fit:contain;background:#f7f9fc}.work-caption{align-items:flex-start;flex-direction:column;gap:5px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+    <div class="logo">RAZA <i>REFURN</i></div>
+    <div class="navlinks"><a href="#services">Services</a><a href="#process">Process</a><a href="#work">Our Work</a><a href="#contact">Contact</a></div>
+    <div class="menu">☰</div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">✦ PREMIUM SOFA REPAIR & REFURBISHMENT</div>
+      <h1>Give Your Sofa<br><span class="orange">A New Life.</span></h1>
+      <p>Professional sofa repair, re-upholstery, foam replacement and refurbishment. We bring comfort and a fresh look back to your favourite sofa.</p>
+      <div class="buttons">
+        <a class="btn btn-main" href="#contact">Get a Free Quote →</a>
+        <a class="btn btn-ghost" href="#services">Explore Services</a>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="sofa-box">
+        <div class="arm left"></div><div class="arm right"></div>
+        <div class="sofa-back"><div class="cushion"></div><div class="cushion"></div></div>
+        <div class="sofa-seat"></div>
+        <div class="leg l"></div><div class="leg r"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">OUR SERVICES</div><h2>Everything Your Sofa Needs</h2><p>From a small repair to a complete makeover, our work is focused on comfort, finishing and long-lasting results.</p></div>
+    <div class="cards">
+      <div class="card"><div class="icon">🛋️</div><h3>Sofa Repair</h3><p>Frame, spring, webbing and structural repairs for all types of sofas.</p></div>
+      <div class="card"><div class="icon">🧵</div><h3>Fabric Change</h3><p>Give your sofa a new personality with fresh, quality upholstery fabric.</p></div>
+      <div class="card"><div class="icon">☁️</div><h3>Foam & Cushion</h3><p>Restore softness and support with professional foam and cushion replacement.</p></div>
+      <div class="card"><div class="icon">✨</div><h3>Full Refurbishment</h3><p>A complete refresh of your old sofa from structure to final upholstery.</p></div>
+      <div class="card"><div class="icon">🪑</div><h3>All Types of Sofa</h3><p>Modern, classic, sectional, office and custom sofa repair services.</p></div>
+      <div class="card"><div class="icon">✓</div><h3>Quality Finishing</h3><p>Neat stitching, clean detailing and a professional final finish.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="process">
+  <div class="wrap">
+    <div class="section-head"><div class="eyebrow">HOW IT WORKS</div><h2>Simple. Clear. Professional.</h2></div>
+    <div class="process">
+      <div class="step"><div class="num">01</div><h3>Inspect</h3><p>We understand your sofa and identify the work it needs.</p></div>
+      <div class="step"><div class="num">02</div><h3>Estimate</h3><p>You get a clear idea of the required repair and cost.</p></div>
+      <div class="step"><div class="num">03</div><h3>Repair</h3><p>Our work focuses on structure, comfort and upholstery.</p></div>
+      <div class="step"><div class="num">04</div><h3>Finish</h3><p>Final detailing gives your sofa a clean, fresh appearance.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">OUR REAL WORK</div>
+      <h2>Before & After Transformations</h2>
+      <p>Real furniture restoration and upholstery work by Raza Refurn.</p>
+    </div>
+    <div class="work-grid">
+      <div class="work-card"><img src="1037.jpg" alt="Sofa before and after transformation"><div class="work-caption"><b>Sofa Makeover</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1040.jpg" alt="Bed headboard refurbishment before and after"><div class="work-caption"><b>Headboard Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1047.jpg" alt="Sectional sofa refurbishment before and after"><div class="work-caption"><b>Sectional Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1036.jpg" alt="Recliner sofa refurbishment before and after"><div class="work-caption"><b>Recliner Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1038.jpg" alt="Bed headboard upholstery before and after"><div class="work-caption"><b>Headboard Upholstery</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1033.jpg" alt="Sectional sofa upholstery before and after"><div class="work-caption"><b>Sectional Sofa Upholstery</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1044.jpg" alt="Recliner chair refurbishment before and after"><div class="work-caption"><b>Recliner Chair Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1051.jpg" alt="Sofa refurbishment before and after"><div class="work-caption"><b>Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1035.jpg" alt="Sofa set refurbishment before and after"><div class="work-caption"><b>Sofa Set Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1039.jpg" alt="Sectional sofa transformation before and after"><div class="work-caption"><b>Sectional Sofa Transformation</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1045.jpg" alt="Sectional sofa restoration before and after"><div class="work-caption"><b>Sectional Sofa Restoration</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1049.jpg" alt="Sofa refurbishment before and after"><div class="work-caption"><b>Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1050.jpg" alt="Sectional sofa refurbishment before and after"><div class="work-caption"><b>Sectional Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1052.jpg" alt="Sectional sofa refurbishment before and after"><div class="work-caption"><b>Sectional Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1048.jpg" alt="Recliner sofa transformation before and after"><div class="work-caption"><b>Sofa Restoration</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="1043.jpg" alt="Chesterfield sofa refurbishment before and after"><div class="work-caption"><b>Chesterfield Sofa Refurbishment</b><span>Before → After</span></div></div>
+      <div class="work-card"><img src="5336.jpg" alt="Dining chair upholstery work"><div class="work-caption"><b>Dining Chair Upholstery</b><span>Premium Finish</span></div></div>
+      <div class="work-card wide"><img src="4645.png" alt="Raza Refurn chair repair and upholstery advertisement"><div class="work-caption"><b>Chair Repair & Upholstery</b><span>Raza Refurn</span></div></div>
+      <div class="work-card wide"><img src="4646.png" alt="Raza Refurn chair upholstery advertisement"><div class="work-caption"><b>Chair Upholstery Work</b><span>Repaired to Look New</span></div></div>
+      <div class="work-card wide"><img src="4695.png" alt="Raza Refurn furniture restoration advertisement"><div class="work-caption"><b>Furniture Restoration</b><span>New Look • Better Comfort</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact">
+      <div><div class="eyebrow">GET IN TOUCH</div><h2>Ready to give your sofa a new life?</h2><p>Serving Delhi NCR, Noida and Gurugram. Send us photos of your sofa and tell us what you need.</p><a class="btn btn-main" href="https://wa.me/919015690524">WhatsApp Us →</a></div>
+      <div class="contact-box"><strong>RAZA REFURN</strong><a href="tel:+919015690524">📞 09015690524</a><a href="https://wa.me/919015690524">💬 WhatsApp</a><span>📍 Delhi NCR • Noida • Gurugram</span></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap foot"><div><b>RAZA REFURN</b> — Sofa Repair & Refurbishment</div><div>© 2026 Raza Refurn</div></div></footer>
+<a class="float" href="https://wa.me/919015690524">WhatsApp</a>
+</body>
+</html>
